@@ -180,7 +180,8 @@ En la comprobación final, los cinco servicios (db, maildev, redis, web y worker
   <em>Figura 1. Los servicios db, maildev, redis, web y worker permanecen activos.</em>
 </p>
 
-
+**Fecha:** 25/10/2026  
+**Commit:** `ab3384c`
 
 ## 7. Preparar Laravel y MySQL
 
@@ -234,6 +235,9 @@ Port: 1025
   <em>Figura 2. Configuración de la aplicación, base de datos y correo durante la instalación de Attendize.</em>
 </p>
 
+**Fecha:** 25/10/2026  
+**Commit:** `ab3384c`
+
 La conexión con la base de datos se comprobó correctamente mediante **TEST DATABASE CONNECTION**.
 
 No se configuraron pagos reales ni servicios externos.
@@ -270,6 +274,8 @@ TechFest Demo
   <em>Figura 3. Organizador ficticio TechFest Demo creado correctamente.</em>
 </p>
 
+**Fecha:** 25/10/2026  
+**Commit:** `ab3384c`
 
 ### Evento
 
@@ -313,6 +319,9 @@ Al volver a acceder a Attendize, el evento **TechFest Demo 2026 seguía disponib
 <p align="center">
   <em>Figura 4. TechFest Demo 2026 continúa disponible después de detener e iniciar los servicios.</em>
 </p>
+
+**Fecha:** 25/10/2026  
+**Commit:** `ab3384c`
 
 Por tanto, se comprobó que los datos de MySQL se conservan después de detener y volver a iniciar los contenedores.
 
